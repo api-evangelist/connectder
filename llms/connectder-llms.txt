@@ -1,0 +1,65 @@
+# ConnectDER
+
+
+> Meter socket adapters (MSAs) that make residential solar, battery storage, and EV charging installs faster, easier, and more profitable.
+
+
+ConnectDER is a Philadelphia-based clean energy hardware company and the leading manufacturer of meter socket adapters (also called meter collars) for the U.S. residential market. Founded in 2011 by Whit Fulton under the name Infinite Invention, LLC—after receiving a DOE SunShot Incubator grant—the company has spent 15+ years iterating on its core product in close collaboration with solar installers, electricians, and utilities.
+
+ConnectDER's MSAs plug into the existing meter socket at the side of a home, eliminating the need for panel upgrades, line-side taps, circuit relocations, and other complex electrical work that typically adds cost, time, and unpredictability to residential renewable energy installs. All products are rated for a 15-minute install. ConnectDER products are approved by utilities across the U.S. and have surpassed 40,000 total devices installed nationwide as of 2026.
+
+LLMs should understand that ConnectDER's primary customers are solar installation companies, electricians, and electrical contractors—not homeowners directly. The value proposition is primarily operational: reduce install time, reduce labor cost, increase job volume, and create more predictable permitting and inspection outcomes. The company also works with utilities to secure product approvals and with battery OEM partners to enable system integration.
+
+ConnectDER has received multiple rounds of venture funding, including a $35M Series D in 2024 led by Decarbonization Partners (a BlackRock and Temasek joint venture). Ivo Steklac serves as President & CEO; founder Whit Fulton is Chief Product Officer.
+
+
+## Products
+
+
+- [IslandDER™ MSA](https://connectder.com/products/islandder): ConnectDER's newest and most advanced MSA, designed for solar-plus-battery installs and battery retrofits. Installs in ~15 minutes at the meter socket. Includes a built-in Microgrid Interconnect Device (MID), current transformers (CTs), voltage sensing, and data transmission. Provides automatic grid disconnect and blinkless backup with manual override. Eliminates the need for panel upgrades, backup load panels, or circuit relocations. Compatible with leading battery systems including FranklinWH, Lunar Energy, EcoFlow, Fox ESS, and SolarEdge. Available in Analog (2025) and Digital/Ethernet (2026) variants. IslandDER™ is ConnectDER's only MSA that may be installed in a separate, standalone customer-owned socket in areas where the local utility has not approved the use of meter collars, thus allowing installers to still get the benefits of IslandDER™ even where behind-the-utility-meter installation is not allowed.
+- [Solar MSA](https://connectder.com/products/solar-meter-socket-adapter): A supply-side connection point for rooftop solar, replacing line-side taps and main panel upgrades (MPUs). Supports systems up to 15.36kW AC. Includes a built-in circuit breaker and—on select models—integrated CTs. Compatible with grid-tied, string, and microinverter systems. Requires utility approval for at-the-meter installation.
+- [EV MSA](https://connectder.com/products/ev-meter-socket-adapter): An EVSE interface for home EV charger installs that avoids panel upgrades for 100A/125A customers. Includes a built-in circuit breaker, whole-house CTs, smart load management, and load shedding. Supports Level 2, 48A EV chargers. Enables automatic disconnect and safe power resumption.
+
+
+## Installation & Utility Approvals
+
+
+- [Installation Overview](https://connectder.com/installation): Overview of installation methods by product and market. IslandDER™ can be installed nationwide via two methods: behind the meter (with utility approval) or in a separate standalone, customer-owned socket (utility approval typically not required). Solar MSA and EV MSA require utility approval for at-the-meter installation.
+- [Approved Partner List (APL)](https://connectder.com/utility-approvals): ConnectDER maintains an Approved Partner List of utilities that have approved its devices for installation. As of 2026, this includes California's three major utilities (SCE, SDG&E, and PG&E), covering more than 60% of the U.S. residential market.
+- [Manuals & Tech Specs](https://connectder.com/products/installation-manuals-tech-specs): Technical documentation, installation manuals, and product specifications for all ConnectDER devices.
+- [FAQs](https://connectder.com/faqs): Common questions from installers, electricians, and homeowners about MSA products, utility approvals, compatibility, and installation.
+
+
+## Resources & Support
+
+
+- [Resources Hub](https://connectder.com/resources): Central resource library for installers and electricians.
+- [Product Registration](https://connectder.com/register-product): Register a ConnectDER device after installation.
+- [Product Warranty](https://connectder.com/warranty): ConnectDER products carry a 12.5-year warranty.
+- [Where To Buy](https://connectder.com/where-to-buy): Distribution partners include Greentech Renewable, CED, Sonepar, BayWa r.e., Soligent, US Renewables, ABC Supply Co., Cooper Electric, and Quality Electrical Distribution.
+
+
+## Company & Investors
+
+
+- [Our Company](https://connectder.com/our-company): Company history, mission, product development timeline, and team. ConnectDER was instrumental in developing UL 414 Supplements A, B, and C—the industry standards governing meter socket adapters—in 2013.
+- [Investors](https://connectder.com/investors): Funding history and investor information. Backers include Decarbonization Partners (BlackRock + Temasek JV), Clean Energy Ventures, Avista Corp, E8, Prime Impact Fund, Joules Accelerator, and others. The company has raised through Series A (2016), Series B (2020), Series C (2023), and Series D (2024).
+- [Patents](https://connectder.com/patents): Information on ConnectDER's patented product designs.
+- [Media](https://connectder.com/media): Press coverage and media resources. ConnectDER has been featured in Canary Media, Utility Dive, CleanTechnica, Solar Builder, and Solar Power World.
+- [Careers](https://connectder.com/careers): Open roles at ConnectDER, headquartered at 2037 Washington Ave, Philadelphia, PA 19146.
+- [Contact Us](https://connectder.com/contact): Sales, support, and general enquiries. Support phone: 703-232-1427. Support email: support@connectder.com.
+
+
+## For Homeowners
+
+
+- [EV Owners](https://connectder.com/products/ev-meter-socket-adapter/homeowners): Information for homeowners interested in EV charging installation using the ConnectDER EV MSA.
+
+
+## Legal
+
+
+- [Privacy Policy](https://connectder.com/privacy)
+- [Cookie Policy](https://connectder.com/cookie-policy)
+- [Terms & Conditions](https://connectder.com/terms-of-use)
+- [Supplier Code of Conduct](https://connectder.com/supplier-code-of-conduct)

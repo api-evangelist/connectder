@@ -1,0 +1,113 @@
+generated: '2026-08-04'
+method: probed
+source: live probes of /.well-known/ and contract-discovery paths on ConnectDER hosts
+notes: >-
+  No /.well-known/ document was found on any ConnectDER host. connectder.com uses a
+  wildcard DNS record — every subdomain (api., app., developer., docs., portal.,
+  cloud., my., data., status.) resolves to the same AWS ALB
+  (tf-prod-load-balancer-431216025.us-east-1.elb.amazonaws.com) and the root of each
+  302-redirects into an infinite /login loop, so subdomain hits are catch-all
+  artifacts and not evidence of an API host. The only machine-readable document
+  ConnectDER publishes is /llms.txt (200, text/plain, 6,931 bytes), saved verbatim to
+  llms/connectder-llms.txt.
+hosts:
+  - host: https://connectder.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/oauth-protected-resource
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+      - path: /llms.txt
+        status: 200
+        file: ../llms/connectder-llms.txt
+  - host: https://www.connectder.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+      - path: /llms.txt
+        status: 200
+  - host: https://api.connectder.com
+    note: wildcard DNS catch-all; root 302s into an infinite /login redirect loop
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+  - host: https://developer.connectder.com
+    note: wildcard DNS catch-all; root 302s into an infinite /login redirect loop
+    documents:
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+  - host: https://docs.connectder.com
+    note: wildcard DNS catch-all; root 302s into an infinite /login redirect loop
+    documents:
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+  - host: https://app.connectder.com
+    note: wildcard DNS catch-all; root 302s into an infinite /login redirect loop
+    documents:
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+contract_discovery:
+  result: none
+  conclusion: >-
+    No machine-readable API contract (OpenAPI, Swagger, GraphQL SDL, MCP tools/list,
+    AsyncAPI or A2A Agent Card) is published by ConnectDER. ConnectDER is a hardware
+    manufacturer; its IslandDER meter socket adapter communicates with partner battery
+    systems over discrete hardwired sensing/control/status/12V signals, not a network
+    API. No developer portal, API reference, SDK, or GitHub organization exists.
+  probed:
+    - {path: /openapi.json, hosts: [connectder.com, www.connectder.com, api.connectder.com, app.connectder.com, developer.connectder.com, docs.connectder.com], status: 404}
+    - {path: /openapi.yaml, hosts: [connectder.com], status: 404}
+    - {path: /v1/openapi.json, hosts: [connectder.com], status: 404}
+    - {path: /swagger.json, hosts: [connectder.com, www.connectder.com, api.connectder.com, app.connectder.com, developer.connectder.com, docs.connectder.com], status: 404}
+    - {path: /swagger, hosts: [connectder.com], status: 404}
+    - {path: /api-docs, hosts: [connectder.com, www.connectder.com, api.connectder.com, app.connectder.com, developer.connectder.com, docs.connectder.com], status: 404}
+    - {path: /docs, hosts: [connectder.com], status: 404}
+    - {path: /redoc, hosts: [connectder.com], status: 404}
+    - {path: /graphql, hosts: [connectder.com], status: 404}
+    - {path: /api, hosts: [connectder.com], status: 404}
+    - {path: /api/v1, hosts: [connectder.com], status: 404}
+    - {path: /asyncapi.yaml, hosts: [connectder.com], status: 404}
+    - {path: /apis.json, hosts: [connectder.com], status: 404}
+  registries_searched:
+    - {registry: npm, query: connectder, results: 0}
+    - {registry: pypi, query: connectder, results: 404}
+    - {registry: rubygems, query: connectder, results: 0}
+    - {registry: crates.io, query: connectder, results: 0}
+    - {registry: nuget, query: connectder, results: 0}
+    - {registry: packagist, query: connectder, results: 0}
+    - {registry: github, query: connectder (users/orgs), results: 0}
+  sitemap:
+    url: https://connectder.com/sitemap.xml
+    status: 200
+    pages: 47
+    developer_pages: 0

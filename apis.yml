@@ -1,8 +1,22 @@
 aid: connectder
 name: ConnectDER
-description: 'ConnectDER is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: ConnectDER is a Philadelphia-based clean energy hardware company and the
+  leading US manufacturer of meter socket adapters (MSAs, also called meter collars)
+  for the residential market. Founded in 2011 as Infinite Invention LLC after a DOE
+  SunShot Incubator grant, it builds plug-and-play devices that install at the utility
+  meter socket to interconnect distributed energy resources — rooftop solar, battery
+  storage and EV charging — without panel upgrades, line-side taps or circuit relocations.
+  Its product line is the IslandDER MSA (a microgrid interconnect device for solar-plus-battery
+  and whole-home backup, integrated by SolarEdge, FranklinWH, Lunar Energy, EcoFlow
+  and Fox ESS), the Solar MSA and the EV MSA. ConnectDER helped author UL 414 Supplements
+  A, B and C, the standards governing meter socket adapters, and has surpassed 40,000
+  devices installed across US utility territories including PG&E, SCE and SDG&E. ConnectDER
+  publishes no public developer API, SDK or machine-readable API contract; its devices
+  communicate with partner battery systems over discrete hardwired sensing, control
+  and status signals rather than a network interface. It does publish an llms.txt at
+  its web root.
 url: https://raw.githubusercontent.com/api-evangelist/connectder/refs/heads/main/apis.yml
+image: https://images.prismic.io/connectder/acSSopGXnQHGY-hK_connectder-islandder-video-cover-photo.png?auto=format,compress&w=2400
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +26,15 @@ created: '2026-08-04'
 modified: '2026-08-04'
 tags:
 - Company
+- Energy
+- Clean Energy
+- Distributed Energy Resources
+- Solar
+- Energy Storage
+- EV Charging
+- Hardware
+- Utilities
+- Electrification
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +43,43 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://forgeglobal.com/connectder_stock/
+  url: https://connectder.com/
+- type: About
+  url: https://connectder.com/our-company
+- type: Products
+  url: https://connectder.com/products/islandder
+- type: Specifications
+  url: https://connectder.com/products/installation-manuals-tech-specs
+- type: Resources
+  url: https://connectder.com/resources
+- type: FAQ
+  url: https://connectder.com/faqs
+- type: Support
+  url: https://connectder.com/contact
+- type: Contact
+  url: https://connectder.com/contact
+- type: Partners
+  url: https://connectder.com/approved-partner-list
+- type: Status
+  url: https://connectder.com/utility-approval-status
+- type: PressReleases
+  url: https://connectder.com/media
+- type: Careers
+  url: https://connectder.com/careers
+- type: Investors
+  url: https://connectder.com/investors
+- type: Patents
+  url: https://connectder.com/patents
+- type: TermsOfService
+  url: https://connectder.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://connectder.com/privacy
+- type: LLMsTxt
+  url: llms/connectder-llms.txt
+- type: DomainSecurity
+  url: security/connectder-domain-security.yml
+x-enrichment:
+  date: '2026-08-04'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
