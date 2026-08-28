@@ -16,6 +16,17 @@ description: ConnectDER is a Philadelphia-based clean energy hardware company an
   and status signals rather than a network interface. It does publish an llms.txt at
   its web root.
 url: https://raw.githubusercontent.com/api-evangelist/connectder/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://images.prismic.io/connectder/acSSopGXnQHGY-hK_connectder-islandder-video-cover-photo.png?auto=format,compress&w=2400
 x-type: company
 x-source: harvest:secondary-market
